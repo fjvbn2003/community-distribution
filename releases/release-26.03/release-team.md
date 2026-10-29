@@ -13,6 +13,6 @@
 | Model Registry WG Liaison(s) | Matteo Mortari (GitHub: [@tarilabs](https://github.com/tarilabs) / Slack: `Matteo Mortari` ) <br> Adysen Rothman (GitHub: [adysenrothman](https://github.com/adysenrothman) / Slack: `Adysen Rothman`) | 
 | KServe Liaison(s) | Vraj Bhatt (GitHub: [@vrajjbhatt](https://github.com/vrajjbhatt) / Slack: `Vraj Bhatt`) |
 
-- The definition of the release team roles and responsibilities can be found at [release handbook](../kubeflow-ai-reference-platform-release-handbook.md)
+- The definition of the release team roles and responsibilities can be found at [release handbook](../kubeflow-community-distribution-release-handbook.md)
 - The timeline for the release can be found [here](README.md).
 
