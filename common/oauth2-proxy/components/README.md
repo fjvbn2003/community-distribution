@@ -51,7 +51,7 @@ Below is a list of the available Kustomize Components with brief descriptions. C
   Creates a ClusterRoleBinding for anonymous access to Kubernetes OIDC
   discovery.
 
-* **[istio-external-auth](./istio-external-auth/README.md)** - Modifies Istio
+* **[istio-external-auth](#explaining-the-auth-routine)** - Modifies Istio
   configuration to define oauth2-proxy as external authentication middleware via
   envoyExtAuthzHttp extension provider. Adds RequestAuthentication to trust Dex
   as IdP and AuthorizationPolicies to delegate authentication to oauth2-proxy.
@@ -61,6 +61,9 @@ Below is a list of the available Kustomize Components with brief descriptions. C
   JWTs for authenticating requests, typically as Bearer Tokens in the
   Authorization header. By default, the OIDC Issuer is the in-cluster Kubernetes
   OIDC.
+
+The [Dashboard](../../../applications/dashboard/) uses the OAuth2-Proxy logout URL
+`/oauth2/sign_out` by default; no separate logout component is required.
 
 ## CloudFlare
 

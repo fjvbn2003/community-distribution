@@ -16,4 +16,3 @@
 
 - The definition of the release team roles and responsibilities can be found at [release handbook](../kubeflow-community-distribution-release-handbook.md)
 - The timeline for the release can be found [here](README.md).
-
