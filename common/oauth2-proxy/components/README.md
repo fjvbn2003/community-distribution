@@ -51,7 +51,7 @@ Below is a list of the available Kustomize Components with brief descriptions. C
   Creates a ClusterRoleBinding for anonymous access to Kubernetes OIDC
   discovery.
 
-* **[istio-external-auth](#explaining-the-auth-routine)** - Modifies Istio
+* **[istio-external-auth](./istio-external-auth/)** - Modifies Istio
   configuration to define oauth2-proxy as external authentication middleware via
   envoyExtAuthzHttp extension provider. Adds RequestAuthentication to trust Dex
   as IdP and AuthorizationPolicies to delegate authentication to oauth2-proxy.
